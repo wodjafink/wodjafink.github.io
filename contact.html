@@ -24,35 +24,37 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
-	      	<li class="active"><a href="index.html">About <span class="sr-only">(current)</span></a></li>
+	        <li><a href="index.html">About</a></li>
 	        <li><a href="portfolio.html">Portfolio</a></li>
-	        <li><a href="contact.html">Contact</a></li>
+	        <li class="active"><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
 
-
 	<div class="container">
-		<!-- One really annoying thing is that I can't seem to get the content of the page to go down unless I force it here-->
-		<div class="row" style="margin-top: 40px;margin-bottom: 40px">
+		<div class="row" style="margin-top: 40px; margin-bottom: 40px">
 			<div class="col-md-8 col-lg-8">
 				<div class="page-header">
-					<h2>About Me</h2>
+					<h2>Contact Me</h2>
 				</div>
-				<img class="pull-left" style="width: 40%; height: 40%; padding: 10px" id="my-image" src="assets/images/jared_large.png" alt="Jared Mednick">
-
-
-				<p>I was born in the Silicon Valley in the late 80s, and have lived all over the bay area.  I was a nerdy kid in high school who built PCs for fun, and that led me to an interest in computer engineering.  I went to study the subject at the University of California, Santa Cruz, and found a love of surfing, rock climbing, and triathlon training while there.</p>
-			
-				<p>By training I am a hardware engineer, and it's been serving me well for the past 7 years.  Sometimes, I sit down to write firmware in C, a low level langauge tuned more for using hardware devices.  I've come to find that my software experience is a bit lacking, and in addition my career has taken me to working at Cloud Scale.  The marriage of these wants led me to get involved with the UC Berkeley Coding Bootcamp, and then that led to creation of this portfolio page (which I've always wanted to have one!).  Now I can track some of my personal projects!</p>
-			
-				<p>I've lived in a bunch of different Bay Area locations and I'm proud to call it home.  Growing up in the South Bay, working on the Peninsula for a while, living in San Francisco previously and currently living in Oakland now.  Recently in life I've acquired a taste for getting out of the Bay Area.  I left my job in 2015 to go travel for 6 months and visited Myanmar, Thailand, Malaysia, Indonesia, Singapore, Cambodia, Vietnam, and Fiji in that order!  That was the longest period of time I've spent outside of the USA, and I'm eager to do more.  Since that round of travel I've gone to Iceland as well as Nicaragua, and I'm currently planning a trip to see the Netherlands, Austria, and Hungary!</p>
+				<form>
+					  <div class="form-group">
+					    <label for="name">Name</label>
+					    <input type="name" class="form-control" id="name" placeholder="Your Name">
+					  </div>
+					  <div class="form-group">
+					    <label for="email">Email</label>
+					    <input type="email" class="form-control" id="email" placeholder="yours@gmail.com">
+					  </div>
+					  <label>Message</label>
+					  <textarea class="form-control" rows="7"></textarea>
+				</form>
 			</div>
 
-			<div class="col-md-4 col-lg-4">
+
+		<div class="col-md-4 col-lg-4">
 				<div class="row">
-					
 		      		<h3>Connect with Me</h3>
 			      		<ul>
 			      			<div class="col-md-3">
@@ -65,10 +67,9 @@
 			        		<li><a href="https://stackoverflow.com/users/6111217/wodjafink"><img class="icon" src="assets/images/stack_overflow_icon.png" alt="StackOverflow Profile"></a></li>
 			        		</div>
 			      		</ul>
-		      		
 	      		</div>
-	      	</div>
-	    </div>
+	      </div>
+	  </div>
 	</div>
 
 	<footer class="footer navbar-fixed-bottom">
@@ -77,6 +78,4 @@
 		</div>
 	</footer>
 
-
 </body>
-</html>
