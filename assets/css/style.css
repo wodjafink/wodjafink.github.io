@@ -49,3 +49,12 @@ footer {
   float: left;
   padding: 10px;
 }
+
+@media only screen and (min-width: 750px) {
+  p{
+    font-size: 24px;
+  }
+  .navbar{
+    font-size: 16px;
+  }
+}
